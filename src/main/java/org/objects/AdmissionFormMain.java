@@ -3,6 +3,7 @@ package org.objects;
 public class AdmissionFormMain {
     public static void main(String[] args) {
 
+        int x = 10; // x is a vraible of type int
 
         AdmissionForm // Type Of Reference Variable To The Object
                 admissionFormRabindra // This is reference variable =
@@ -16,6 +17,7 @@ public class AdmissionFormMain {
 
         System.out.println(admissionFormRabindra.getScholarshipAmount()); // behaviour
 
+        //----------------------------------------------------------------------
         AdmissionForm admissionFormDebabrata = new AdmissionForm();
         admissionFormDebabrata.name = "Debabrata";
         admissionFormDebabrata.gradMarksInPercentage = 85;
@@ -24,17 +26,20 @@ public class AdmissionFormMain {
 
         System.out.println(admissionFormDebabrata.getScholarshipAmount()); // behaviour
 
+        // --------------------------------------------------------------------
         System.out.println(admissionFormRabindra.getClass());
 
 
-        System.out.println(admissionFormRabindra == admissionFormDebabrata);
+        System.out.println(admissionFormRabindra == admissionFormDebabrata); // false
+        System.out.println("rabindra: "+admissionFormRabindra.hashCode());
+        System.out.println("debabrata: "+admissionFormDebabrata.hashCode());
 
         AdmissionForm admissionFormRabindraAnotherVariable = admissionFormRabindra;
 
-        System.out.println(admissionFormRabindraAnotherVariable == admissionFormRabindra);
+        System.out.println(admissionFormRabindraAnotherVariable == admissionFormRabindra); // true
 
-        System.out.println(admissionFormRabindra);
-        System.out.println(admissionFormRabindraAnotherVariable);
+        System.out.println(admissionFormRabindra.hashCode());
+        System.out.println(admissionFormRabindraAnotherVariable.hashCode());
 
     }
 }
