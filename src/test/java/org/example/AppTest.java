@@ -15,6 +15,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        assertTrue( true );  // Asserts that a condition is true. If it isn't it throws an AssertionError without a message.
     }
 }
