@@ -10,7 +10,7 @@ public class CalculatorMain {
         Calculator c2 = new Calculator(10);
         System.out.println(c2.hashCode());
 
-      //  admissionFormWithThis();
+        admissionFormWithThis();
     }
 
     public static void admissionFormWithThis()
