@@ -5,9 +5,11 @@ public class Calculator {
     private int i;
     private int j;
 
-    {
+    {  // a logic we want apply to every object we create.
+        // instead of writing in every constructor,
+        // just write it at one place.
         this.i = 100;
-        i = 200;
+        i = 201;
         System.out.println("non-static block: " + sum());
         System.out.println("non-static block: " + this.sum());
     }
