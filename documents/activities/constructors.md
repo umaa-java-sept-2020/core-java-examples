@@ -1,3 +1,30 @@
+* Find the output with explanation?
+
+```java
+
+public class Test {
+    public static void main(String[] args) {
+        A a = new A();
+        System.out.println(a.hashValue == a.hashCode());
+    }
+}
+
+class A
+{
+    public int i;
+    public int hashValue;
+    public A()
+    {
+        this(10);
+    }
+    
+    public A(int x)
+    {
+        this.i = x;
+        this.hashValue = this.hashCode();
+    }
+}
+```
 * Access Modifiers & Packages. Find the compilation errors & why? Find the output also by fixing them.
 ```java
 package com.pkg1;
