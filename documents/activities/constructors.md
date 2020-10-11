@@ -1,4 +1,4 @@
-* Will the below code will compile?
+* Why the below code won't compile?
 ```java
 class A
 {
