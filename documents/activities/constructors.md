@@ -1,6 +1,33 @@
 * Find the output with explanation?
 
 ```java
+public class Test {
+    public static void main(String[] args) {
+        A a = new A();
+        System.out.println(a.hashValue == a.hashCode());
+    }
+}
+
+class A
+{
+    public int i;
+    public int hashValue;
+    public A()
+    {
+        new A(10);
+    }
+
+    public A(int x)
+    {
+        this.i = x;
+        this.hashValue = this.hashCode();
+    }
+}
+```
+
+* Find the output with explanation?
+
+```java
 
 public class Test {
     public static void main(String[] args) {
