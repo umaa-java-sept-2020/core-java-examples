@@ -1,6 +1,14 @@
 * Write a simple example of a Product class where it uses this with paremeterized constructor.
+* What is StackOverflowError. When it occurs. It comes under which package in java library.
 * Will the below code compile? Find the output of the below code.
 ```java
+
+public class Test {
+    public static void main(String[] args) {
+        A a = new A();
+    }
+}
+
 class A
 {
     private int x =11;
