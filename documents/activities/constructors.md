@@ -1,3 +1,14 @@
+* Will the below code will compile?
+```java
+class A
+{
+    public A()
+    {
+        this();
+    }
+}
+```
+
 * Find the output with explanation?
 
 ```java
