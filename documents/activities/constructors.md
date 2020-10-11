@@ -1,3 +1,14 @@
+* Will the below code compile?
+```java
+class A
+{
+    public A()
+    {
+        new A();
+    }
+}
+```
+
 * Why the below code won't compile?
 ```java
 class A
