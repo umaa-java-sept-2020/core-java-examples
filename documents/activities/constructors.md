@@ -1,3 +1,34 @@
+* Find the output with explanation.
+```java
+
+public class Test {
+    public static void main(String[] args) {
+        A a = new A();
+    }
+}
+
+class A
+{
+    private int x =11;
+    public A()
+    {
+        this(10);
+        if(x % 2 == 0)
+        {
+            System.out.println("even");
+        }
+        else
+        {
+            System.out.println("odd");
+        }
+    }
+    
+    public A(int x)
+    {
+        this.x = x;
+    }
+}
+```
 * Will the below code compile?
 ```java
 class A
