@@ -1,3 +1,4 @@
+* Write a simple example of a Product class where it uses this with paremeterized constructor.
 * Will the below code compile? Find the output of the below code.
 ```java
 class A
