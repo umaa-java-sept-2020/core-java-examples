@@ -1,3 +1,21 @@
+* Will the below code compile. If not why?
+```java
+
+class A
+{
+    private int x =11;
+    public A()
+    {
+        this(10);
+    }
+
+    public A(int x)
+    {
+        this();
+        this.x = x;
+    }
+}
+```
 * Find the output with explanation.
 ```java
 
