@@ -19,7 +19,7 @@ public class Test5 {
     public static class Child extends Parent
     {
         public Child() {
-            super();// optional to write here
+            super();// optional to write here. invocation to parent constructor using super never creates a new object of parent class.
             System.out.println("child class: "+this.hashCode());
             System.out.println("child class: "+this.getClass());
         }

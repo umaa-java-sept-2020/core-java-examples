@@ -24,7 +24,7 @@ public class Test13 {
     {
         // fix: param constructor
         public Child(int i) {
-            super(i); // super() must be first line in your constructor
+            super(i); // invocation to any super constructor super() must be first line in your constructor
             // it is just call to parent class param constructor. no new object creation.
             System.out.println("child class constructor");
         }
