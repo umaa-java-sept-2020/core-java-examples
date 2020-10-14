@@ -5,6 +5,8 @@ public class Test12 {
 
     }
 
+    // inheritance: parent class having param constructor. child having param constructor
+    // fix: invoke parent param constructor from child constructor
     public static class Parent
     {
         private int i;

@@ -2,7 +2,7 @@ package org.oops.inheritance.scenarios;
 
 public class Test9 {
 
-    // use of variable with this object
+    // use of variable with this object. variable commented in parent class.
     public static void main(String[] args) {
         Parent p = new Child();
 //        System.out.println(p.i);

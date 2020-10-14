@@ -27,7 +27,7 @@ public class Test7 {
 
     public static class Child extends Parent
     {
-        public int i = 1000;
+        public int i = 1000; // child class variable defined with same name as in parent
 
         @Override
         public void m1()

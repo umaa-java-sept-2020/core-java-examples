@@ -6,6 +6,9 @@ public class Test13 {
         new Child(10);
     }
 
+    // which constructor logic will execute first?
+    // considering super(param) is constructor invocation from child class.
+    // parent logic will execute first due to super constructor invocation from child
     public static class Parent
     {
         private int i;

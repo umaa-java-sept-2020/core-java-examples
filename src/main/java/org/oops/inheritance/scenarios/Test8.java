@@ -16,9 +16,9 @@ public class Test8 {
 
     public static class Parent
     {
-       public int i = 10;
+       public int i = 10; // this will be inherit to child class
 
-       public void m1()
+       public void m1() // this will be inherit to child class
        {
            System.out.println("inside parent class: "+i);
        }
