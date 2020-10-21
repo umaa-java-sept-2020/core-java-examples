@@ -1,4 +1,4 @@
-* Code example of inheritance. Reuse method(s) & variable(s).
+* Code example of inheritance. Reuse static/non-static method(s) & static/non-static variable(s).
 * Code example of instance of operator using classes as BaseParent->Parent->Child.
 * Code example of super constructor.
 * Does multiple object created in inheritance hierarchy.
