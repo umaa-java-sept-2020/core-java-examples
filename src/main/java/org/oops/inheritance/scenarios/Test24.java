@@ -1,7 +1,8 @@
 package org.oops.inheritance.scenarios;
 
-// main method can be inherited to child class. If child class not defining the main method then parent class main will be invoked while executing child class.
-// main method cant be overridden in child class.
+// main method can be inherited to child class. If child class not defining the main method
+// then parent class main will be invoked while executing child class.
+// main method cant be overridden in child class because main is static in nature.
 public class Test24 {
     public static void main(String[] args) {
         System.out.println("Test24");
