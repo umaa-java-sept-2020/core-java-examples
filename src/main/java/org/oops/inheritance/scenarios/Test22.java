@@ -5,6 +5,7 @@ public class Test22 {
 
     }
 
+    // scope can be extended in child class but not reduced.
     private static class A
     {
         protected int i = 10;
