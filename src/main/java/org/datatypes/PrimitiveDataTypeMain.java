@@ -1,6 +1,16 @@
 package org.datatypes;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
+// assignment:
+
+/**
+ *  decimal (+ve / -ve)  convert to binary.
+ *  +ve number : binary
+ *  -ve number: 2s compliment form
+ *
+ *  hexadecimal form ( +ve / -ve ) convert binary
+ *
+ *  floating point numbers ( +ve / -ve) convert it to binary
+ */
 
 public class PrimitiveDataTypeMain {
     public static void main(String[] args) {
@@ -10,12 +20,11 @@ public class PrimitiveDataTypeMain {
         int i = b;
         System.out.println(Integer.toBinaryString(i));
 
-        int k = 270;
+        int k = 42424;
         System.out.println(Integer.toBinaryString(k));
         byte v = (byte)k;
         System.out.println(v);
         System.out.println(Integer.toBinaryString(v));
-
     }
 
     private static void sizesOfDataTypes()
