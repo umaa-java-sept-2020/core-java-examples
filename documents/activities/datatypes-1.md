@@ -3,9 +3,9 @@
 * Revise datatype theory: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 * Revise datatype: http://www.javalearningacademy.com/java-data-types/
 * Revise datatype: https://www.topperskills.com/tutorials/java/data-types-java.html
-* Floating point representation: https://www.geeksforgeeks.org/introduction-of-floating-point-representation/
-* Floating point precision: https://www.geeksforgeeks.org/difference-between-single-precision-and-double-precision 
-* Auto boxing & Auto unboxing.
+* Revise Floating point representation: https://www.geeksforgeeks.org/introduction-of-floating-point-representation/
+* Revise Floating point precision: https://www.geeksforgeeks.org/difference-between-single-precision-and-double-precision 
+* Revise Auto boxing & Auto unboxing: https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html
 * 1s complement
 * 2s complement
 * Represent whole numbers (+ve / -ve ) or float point numbers (+ve / -ve) in binary format.
