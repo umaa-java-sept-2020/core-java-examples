@@ -36,7 +36,7 @@ public class WrapperClassesMain {
 
         // object to primitive: auto unboxing
         // convert c1 (object) to primitive again
-        char c2 =  c1.charValue();// convert to char // auto boxing
+        char c2 =  c1.charValue();// convert to char // auto unboxing
         Character c3 = c1.charValue(); // char -> character
     }
     private static void charMethodsAndConstructors()
