@@ -1,5 +1,6 @@
 * 1s complement
 * 2s complement
+* Represent whole numbers (+ve / -ve ) or float point numbers (+ve / -ve) in binary format.
 * convert between primtiive type and wrapper types.
 * convert string(decimal value) to long, int, short, byte.
 * Understand the wrapper class hierachy. Explain the wrapper child classes for Number class.
