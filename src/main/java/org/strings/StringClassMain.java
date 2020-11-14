@@ -31,29 +31,69 @@ public class StringClassMain {
 
         //   m17();
 
-       // m18();
-     //   m19();
+        // m18();
+        //   m19();
 
-      //  m20();
+        //  m20();
 
-        m21();
+        // m21();
+
+        //   m22();
+
+        m23();
     }
 
-    public static void m21()
-    {
+
+    // string constructors
+    public static void m23() {
+        String s = new String("abc");
+        byte[] bytes = s.getBytes();
+        s = new String(bytes);
+        char[] ch = {'a', 'b', 'c'};
+        s = new String(ch);
+
+        System.out.println(s);
+    }
+
+    // sttaic methods
+    public static void m22() {
+        char[] ch = {'a', 'b', 'c'};
+        String result = String.copyValueOf(ch);
+        System.out.println(result);
+
+        String message = "Today is %s day and on %d. You will get salary of %f only if you study";
+
+        result = String.format(message, "children's day", 14, 80000.7f);
+        System.out.println(result);
+
+        result = String.join("#", "xy", "ab", "lm");
+        System.out.println(result);
+
+        result = String.valueOf(10);
+        System.out.println(result);
+        result = String.valueOf(true);
+        System.out.println(result);
+        result = String.valueOf(ch);
+        System.out.println(result);
+
+        Object object = new String("abcd");
+        System.out.println(object);
+    }
+
+    public static void m21() {
         String s = " Welcome ";
 
-        for(int i = 0; i <s.length(); i++ )
-        {
+        for (int i = 0; i < s.length(); i++) {
             System.out.println(s.charAt(i));
         }
     }
-    public static void m20()
-    {
+
+    public static void m20() {
         String s = " Welcome to india ";
         char ch[] = s.toCharArray();
         System.out.println(Arrays.toString(ch));
     }
+
     // lowerCase, upperCase, trim
     public static void m19() {
         String s = " Welcome to india "; // string are constant, immutable
