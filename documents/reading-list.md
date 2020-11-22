@@ -51,7 +51,7 @@ Garbage Collection
 ## Part 10: (10 hours)
 File IO/NIO
 
-## =================================================================
+## ========================================
 
 ## Servlets:
 
@@ -82,7 +82,7 @@ Multipart form submissions. Authentication, Authorization
 ## Part 9: (2 hours) 
 Basic Crud with Employee & Address.
 
-## ==================================================================
+## ===================================
 ## Spring 
 * Spring Core: 3 hours 
 
@@ -92,8 +92,8 @@ Basic Crud with Employee & Address.
 
 * Spring Security: 3 hours 
 
-## ==================================================================
-## Maven & Junit
+## ====================================
+## Maven, Junit & Git
 * Maven Build Lifecycle, Phases, Dependency Management : 2 hours
 
 * Basic Junit: 2 hours 
@@ -101,4 +101,6 @@ Basic Crud with Employee & Address.
 * Mockito: 2 hours 
 
 * Power Mockito: 2 hours
-## ==================================================================
+
+* Git: add, commit, push, pull , clone, restore, reset, stash, cherry-pick, rebase, merge (2 hours) 
+## =====================================
