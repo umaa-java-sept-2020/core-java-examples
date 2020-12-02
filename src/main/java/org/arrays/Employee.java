@@ -1,6 +1,6 @@
 package org.arrays;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private Integer id;
     private String name;
@@ -46,5 +46,37 @@ public class Employee {
                 ", name='" + name + '\'' +
                 ", companyName='" + companyName + '\'' +
                 '}';
+    }
+
+    // sorting logic tightly coupled with the Employee.
+    // no code change in employee class.
+    @Override
+    public int compareTo(Employee o) {
+        int result = -1;
+        result =  sortByName(o); //sortByName(o);
+        return result;
+    }
+
+    private int sortByCompanyName(Employee e) {
+        String companyName1 = this.getCompanyName();
+        String companyName2 = e.getCompanyName();
+        return companyName1.compareTo(companyName2);
+    }
+
+    private int sortByName(Employee e) {
+        String name1 = this.getName();
+        String name2 = e.getName();
+        return name1.compareTo(name2);
+    }
+
+    // when name is same, reverse the order of company name
+    private int sortByNameWithReverseOrderCompanyName(Employee e)
+    {
+        int result = -sortByName(e);
+        if(result == 0)
+        {
+            result = -sortByCompanyName(e); // reverseOrder -
+        }
+        return result;
     }
 }
