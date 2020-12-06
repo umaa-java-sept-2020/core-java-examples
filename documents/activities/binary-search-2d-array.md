@@ -1,3 +1,15 @@
+
+
+binary search on 1d array
+==============================
+search 5 {2,5,6,7,10,12,15,17,18}
+
+binary search to search an element in sorted matrix
+===================================================
+
+* column major
+* row major
+
 int[][] arr = {
 
 {2, 5, 6},
@@ -8,8 +20,10 @@ int[][] arr = {
 
 binary search.
 length = 3;
-i = index / length
-j = index % length
+`
+i = index / length;
+j = index % length;
+`
 
 case 1: search = 12
 =========================================================
@@ -76,8 +90,4 @@ p1 = 0 ( 0,0) , p2 = 2 (0,2)
 v1 = 0 , v2 = 6, mi = (0 + 2)/2 = 1 (0,1) mv = 5
 
 ==============================
-{2,5,6,7,10,12,15,17,18}
 
-search 5
-binary search
-==============================
