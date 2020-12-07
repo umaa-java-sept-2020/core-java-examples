@@ -1,4 +1,19 @@
 # OOPS , STRING, ENUM, ARRAYS, CUSTOM TYPES, CODING
+## ARRAYS
+* Traverse a 2d array using column major or row major.
+* Print a 2d array using toString().
+* For a 2d array of dimesnion 3 * 4. arr.length will give 3 or 4?
+* In a 2d array of size 3 * 3. convert a given index say 5 into i,j format. Access the element.
+* use equals method for comparing 2 1d arrays having same or different content.
+* use deepEquals method for comparing 2 2d(or multidimensional) arrays having same or different content.
+* Traverse a 2d array using forEach loop along with for index loop.
+* int[][] arr = new int[3][4]; Try to iterate this 2d array with below data.
+```java
+arr[0] = {1,2,3,4,5,6}; // is this valid? 
+arr[1] = {1,2,3}; // is this valid? 
+arr[2] = {1,2,3,4,5,6, 7}; // is this valid? 
+```
+
 ## CUSTOM TYPES
 * Design a Person class. Where his address is has-a relationship.
 * Display Person & Adrress has-relationshop using toString(). It must display content of object.
