@@ -1,5 +1,6 @@
 # OOPS , STRING, ENUM, ARRAYS, CUSTOM TYPES, CODING
 ## ARRAYS
+* Traverse an 1d array using while loop.
 * Traverse a 2d array using column major or row major.
 * Print a 2d array using toString().
 * For a 2d array of dimesnion 3 * 4. arr.length will give 3 or 4?
