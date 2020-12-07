@@ -54,4 +54,4 @@ public class Employee
    // getter & setter
 }
 ```
-* For above class and array. Apply sort by name when age is same (comparable)
+* For above class and array. Apply sort by reverse order of name when age is same (comparable)
