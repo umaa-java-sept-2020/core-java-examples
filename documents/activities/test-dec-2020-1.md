@@ -55,3 +55,15 @@ public class Employee
 }
 ```
 * For above class and array. Apply sort by reverse order of name when age is same (comparable)
+* In an excel spread sheet. A = 1, Z = 26, AA = 27, AB = 28. Implement below methods.
+```java
+public static int convertToInt(String shellAsStr) // input can be A, Z, AA, AB
+{
+  return 0;
+}
+
+public static String convertToString(Integer shellAsInt) // input can be any integer
+{
+  return null;
+}
+```
