@@ -1,4 +1,4 @@
-# OOPS , STRING, ENUM, ARRAYS, CUSTOM TYPES, CODING
+# ARRAYS, CUSTOM TYPES, CODING
 ## ARRAYS
 * Traverse an 1d array using while loop.
 * Traverse a 2d array using column major or row major.
