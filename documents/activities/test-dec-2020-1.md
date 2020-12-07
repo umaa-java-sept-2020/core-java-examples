@@ -14,6 +14,7 @@ arr[0] = {1,2,3,4,5,6}; // is this valid?
 arr[1] = {1,2,3}; // is this valid? 
 arr[2] = {1,2,3,4,5,6, 7}; // is this valid? 
 ```
+* What is `ArrayIndexOutOfBoundsException`. Who is the parent class of `ArrayIndexOutOfBoundsException`.
 
 ## CUSTOM TYPES
 * Design a Person class. Where his address is has-a relationship.
