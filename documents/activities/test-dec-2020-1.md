@@ -1,4 +1,9 @@
 # OOPS , STRING, ENUM, ARRAYS, CUSTOM TYPES, CODING
+## CUSTOM TYPES
+* Design a Person class. Where his address is has-a relationship.
+* Design a class called Person and Doctor. It must say Doctor is a Person.
+* Does has-a relationship represents composition?
+* How many types of compositions are available.
 
 ## CODING (Write with Junit)
 * Given a character array. Reverse it using custom logic.
