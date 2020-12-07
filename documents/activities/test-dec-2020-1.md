@@ -27,3 +27,31 @@ arr2 = {17, 18, 21}
 ```java
 int[] arr1 = {2, 4, 5, 9, 13, 11, 12, 10, 14, 17}.
 ```
+* Given a string below. Make the initial of each word upper case. custom logic.
+```java
+String s = "utkal university odisha"
+
+/**
+output: "Utkal University Odisha"
+*/
+```
+* Given a string below. Reverse each word below. custom logic. (dont reverse the complete string).
+```java
+String s = "utkal university odisha"
+
+/**
+output: "reverse Utkal reverse University reverse odisha"
+*/
+```
+* Given an employee class below. Create Array of employees. Apply sorting by name (comparator). Apply sort by name when age is same (comparator).
+```java
+public class Employee
+{
+   private Integer id;
+   private String name;
+   private Integer age;
+
+   // getter & setter
+}
+```
+* For above class and array. Apply sort by name when age is same (comparable)
