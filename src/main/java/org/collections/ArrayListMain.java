@@ -2,12 +2,14 @@ package org.collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class ArrayListMain {
 
 
     public static void main(String[] args) {
-        ArrayList<String> al = new ArrayList<>();
+      // ArrayList<String> al = new ArrayList<>();
+        List<String> al = new ArrayList();
         al.add("john");
         al.add("doe");
         al.add("doe");
@@ -21,7 +23,7 @@ public class ArrayListMain {
         String[] strArray = al.toArray(new String[size]);
         System.out.println(Arrays.toString(strArray));
     }
-
+/*
     public static void m5(String[] args) {
         // array list overrides equals and hashcode methods
         ArrayList<String> al = new ArrayList<>();
@@ -82,10 +84,11 @@ public class ArrayListMain {
         Marker Interfaces: (no method)
         RandomAccess, Cloneable, java.io.Serializable
          */
-    }
+    /*}
 
     public static void m1(String[] args) {
         int[] arr = {10, 20, 30};
         arr[3] = 50;// runtime memory allocation
     }
+    */
 }
