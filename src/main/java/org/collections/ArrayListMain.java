@@ -1,15 +1,70 @@
 package org.collections;
 
+import org.arrays.Employee;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class ArrayListMain {
 
-
     public static void main(String[] args) {
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
+
+        List<Employee> el = new ArrayList<>();
+        el.add(e1);
+        el.add(e2);
+
+        Employee e3 = new Employee();
+        List<Employee> rl = new ArrayList<>();
+        rl.add(e3);
+        rl.add(e1);
+
+        el.retainAll(rl);
+        System.out.println(el);
+    }
+    public static void m8(String[] args) {
+        List<String> al;
+        al = new ArrayList<>();
+        al.add("john");
+        al.add("doe");
+        al.add("doe");
+        al.add("john");
+        al.add("glen");
+
+        List<String> retainList = new ArrayList<>();
+        retainList.add("john");
+        retainList.add("doe");
+
+        System.out.println(al);
+        al.retainAll(retainList);
+
+        System.out.println(al);
+    }
+
+    public static void m7(String[] args) {
+        List<String> al;
+        al = new ArrayList<>();
+        al.add("john");
+        al.add("doe");
+        al.add("doe");
+        al.add("john");
+        al.add("glen");
+
+        List<String> removeList = new ArrayList<>();
+        removeList.add("john");
+        removeList.add("doe");
+
+        System.out.println(al);
+        al.removeAll(removeList);
+
+        System.out.println(al);
+    }
+    public static void m6(String[] args) {
       // ArrayList<String> al = new ArrayList<>();
-        List<String> al = new ArrayList();
+        List<String> al;
+        al = new ArrayList<>();
         al.add("john");
         al.add("doe");
         al.add("doe");
