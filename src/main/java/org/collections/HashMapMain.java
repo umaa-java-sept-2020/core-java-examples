@@ -6,6 +6,11 @@ public class HashMapMain {
 
 
     public static void main(String[] args) {
+        Map<String,String> map = new Hashtable<>();
+        map.put(null,null); // key or value should not be null in HashTable.
+        // HashTable a synch version of HashMap
+    }
+    public static void m11(String[] args) {
 
         Product p1 = new Product("p1","g1");
         Product p2 = new Product("p2","g1");
