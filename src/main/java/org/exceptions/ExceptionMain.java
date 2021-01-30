@@ -2,9 +2,148 @@ package org.exceptions;
 
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ExceptionMain {
 
+    // ClassNotFoundException(checked), NoClassDefError : Error or Exception always comes at runtime. Only compilation error is at compile time
+
+    public static void main(String[] args) throws ClassNotFoundException {
+        String className = "java.lang.String"; // "new delhi";
+        Class.forName(className);
+
+    }
+
+    public static void main1(String[] args) {
+
+        List<String> list = new ArrayList<>();
+        while(true)
+        {
+            try {
+                list.add("data");
+            } catch (Error e) {
+                System.out.println(e.getCause());
+
+                System.out.println(list.size());
+                System.out.println("======================");
+                e.printStackTrace();
+            }
+        }
+    }
+    /**
+     * m8
+     */
+    private static void m8()
+    {
+        m81();
+    }
+
+    private static void m81()
+    {
+       m8();
+    }
+
+    public static void main_m8(String[] args) {
+        try {
+            m8();
+        } catch (Exception e) {
+            //e.printStackTrace();
+            System.out.println("exception occured");
+        }
+        catch (StackOverflowError e)
+        {
+            System.out.println("stack overflow error");
+        }
+        catch (Error e)
+        {
+            System.out.println("error occured");
+        }
+    }
+    // unchecked exception wont be detected by the compiler
+    // checked excdeptions are detected by the compiler
+
+    private static void m7()
+    {
+        int x = 11;
+        if( x > 10)
+           throw new RuntimeException("invalid data");
+        System.out.println("wont execute");
+    }
+
+    public static void main_m7(String[] args) {
+
+        /*
+        try {
+            m7();
+        } catch (ArithmeticException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            m7();
+        } catch (RuntimeException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            m7();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        try {
+            m7();
+        } catch (SQLException e) { // detected: a child checked exception which is not thrown from try block
+            e.printStackTrace();
+        }
+
+        try {
+            m7();
+
+        } catch (IOException e) { // detected: a child checked exception which is not thrown from try block
+            e.printStackTrace();
+        }
+
+
+        try {
+            m7();
+           throw new IOException("ioe");
+        } catch (IOException e) { // detected: a child checked exception which is thrown from try block
+            e.printStackTrace();
+        }
+
+        */
+    }
+    /**
+     *
+     * @throws Exception
+     */
+    private static void m6() throws Exception
+    {
+        int x = 11;
+        if( x > 10)
+            throw new Exception("checked");
+
+        System.out.println("wont execute");
+    }
+
+    public static void main_m6(String[] args) throws Exception {
+
+        // try - catch, try - catch - catch - finally, try - finally
+        try {
+            System.out.println("calling m6");
+            m6();
+        } finally {
+
+            System.out.println("finally");
+        }
+
+    }
+
+    /**
+     *  m5
+     */
     private static void m5() throws InvalidDataException
     {
         int x = 11;
@@ -25,7 +164,7 @@ public class ExceptionMain {
         System.out.println("hello"); // wont execute
     }
 
-    public static void main(String[] args) throws InvalidDataException {
+    public static void main_m5(String[] args) throws InvalidDataException {
         try {
             m5();
             System.out.println("try2");
